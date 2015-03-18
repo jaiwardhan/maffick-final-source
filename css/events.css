@@ -1,0 +1,356 @@
+/*
+* z-index range is 6000-7000
+*/
+
+@media screen and (min-width: 1400px) {
+	#events {
+		background-image: url(../img/events/bg1.png);
+		background-repeat: no-repeat;
+		opacity: 0.99;
+		z-index: 6001;
+	}
+}
+
+@media screen and (max-width: 1399px) {
+	#events {
+		background-image: url(../img/events/bg2.png);
+		background-repeat: no-repeat;
+		opacity: 0.99;
+		z-index: 6001;
+	}
+}
+
+#frame{
+	position: absolute;
+	z-index: 6006;
+	height: 100%;
+}
+
+#panelcontainer{
+	position: absolute;
+	width: 100%;
+	top: 0%;
+	overflow-y:hidden;
+	height: 100%;
+}
+
+#panelcontainer a{
+	overflow: hidden;
+}
+#panelcontainer img {
+	text-decoration: none;
+	display: inline-block;
+	height: 100%;
+	-webkit-user-select:auto;
+}
+.zoom{
+	zoom:100%;
+	-webkit-zoom:100%;
+}
+/****** <<<<<<   WIDE SCREEN    >>>>>>> *******/
+@media screen and (min-width: 1400px) {
+	/** ========= eventdiv ============ **/
+	.panelbox{
+		position: relative;
+		float: left;
+		width: 20%;
+	}
+
+	.board{
+		position: absolute;
+		float: left;
+		top: 0px;
+		left: 40%;
+		z-index: 6012;
+	}
+
+	.panels{
+		position: relative;
+		height: 60%;
+	}
+
+	/** ========= for screens targeted at 1920x1080 resolution ========== **/
+  	#firstpanel{
+		position: relative;
+		float: left;
+		z-index: 6010;
+		left:0px;
+		-webkit-animation: pmotion 9s linear infinite ;
+		-moz-animation: pmotion 9s linear infinite ;
+		-o-animation: pmotion 9s linear infinite ;
+		animation: pmotion 9s linear infinite;
+	}
+	/** ========= for screens targeted at 1920x1080 resolution ========== **/
+	#secondpanel{
+		position: relative;
+		float: left;
+		z-index: 6009;
+		margin-left:-10px;
+		-webkit-animation: pmotion 10s linear infinite ;
+		-moz-animation: pmotion 10s linear infinite ;
+		-o-animation: pmotion 10s linear infinite ;
+		animation: pmotion 10s linear infinite;
+	}
+	/** ========= for screens targeted at 1920x1080 resolution ========== **/
+	#thirdpanel{
+		position: relative;
+		float:left;
+		z-index: 6008;
+		margin-left:-10px;
+		-webkit-animation: pmotion 11s linear infinite ;
+		-moz-animation: pmotion 11s linear infinite ;
+		-o-animation: pmotion 11s linear infinite ;
+		animation: pmotion 11s linear infinite;
+	}
+	/** ========= for screens targeted at 1920x1080 resolution ========== **/
+	#fourthpanel{
+		position: relative;
+		float:left;
+		z-index: 6007;
+		margin-left:-10px;
+		-webkit-animation: pmotion 9s linear infinite ;
+		-moz-animation: pmotion 9s linear infinite ;
+		-o-animation: pmotion 9s linear infinite ;
+		animation: pmotion 9s linear infinite;
+	}
+	/** ========= for screens targeted at 1920x1080 resolution ========== **/
+	#fifthpanel{
+		position: relative;
+		float:left;
+		z-index: 6006;
+		margin-left:-10px;
+		-webkit-animation: pmotion 8s linear infinite ;
+		-moz-animation: pmotion 8s linear infinite ;
+		-o-animation: pmotion 8s linear infinite ;
+		animation: pmotion 8s linear infinite;
+	}
+}
+/** ---------------------------------------- **/
+/******* >>>>>>> SMALL SCREEN  <<<<<<< ********/
+@media screen and (max-width: 1399px) {
+	/** ========== event div ============ **/
+	.panelbox{
+		position: relative;
+		float: left;
+		top: 0%;
+		width: 20%;
+	}
+	.board{
+		position: absolute;
+		float: left;
+		top: 0px;
+		left: 30%;
+		z-index: 6012;
+	}
+	.panels{
+		position: relative;
+		height: 60%;
+	}
+	/** ========= for screens targeted at 1366x768 resolution ========== **/
+	
+  	#firstpanel{
+		position: relative;
+		z-index: 6010;
+		left:-100px;
+		-webkit-animation: pmotion 9s linear infinite ;
+		-moz-animation: pmotion 9s linear infinite ;
+		-o-animation: pmotion 9s linear infinite ;
+		animation: pmotion 9s linear infinite;
+	}
+	/** ========= for screens targeted at 1366x768 resolution ========== **/
+	#secondpanel{
+		position: relative;
+		float: left;
+		z-index: 6009;
+		margin-left:-89px;
+		-webkit-animation: pmotion 10s linear infinite ;
+		-moz-animation: pmotion 10s linear infinite ;
+		-o-animation: pmotion 10s linear infinite ;
+		animation: pmotion 10s linear infinite;
+	}
+	/** ========= for screens targeted at 1366x768 resolution ========== **/
+	#thirdpanel{
+		position: relative;
+		float: left;
+		z-index: 6008;
+		margin-left:-95px;
+		-webkit-animation: pmotion 11s linear infinite ;
+		-moz-animation: pmotion 11s linear infinite ;
+		-o-animation: pmotion 11s linear infinite ;
+		animation: pmotion 11s linear infinite;
+	}
+	/** ========= for screens targeted at 1366x768 resolution ========== **/
+	#fourthpanel{
+		position: relative;	
+		float: left;	
+		z-index: 6007;
+		margin-left:-89px;
+		-webkit-animation: pmotion 9s linear infinite ;
+		-moz-animation: pmotion 9s linear infinite ;
+		-o-animation: pmotion 9s linear infinite ;
+		animation: pmotion 9s linear infinite;
+	}
+	/** ========= for screens targeted at 1366x768 resolution ========== **/
+	#fifthpanel{
+		position: relative;
+		float: left;
+		z-index: 6006;
+		margin-left:-110px;
+		-webkit-animation: pmotion 8s linear infinite ;
+		-moz-animation: pmotion 8s linear infinite ;
+		-o-animation: pmotion 8s linear infinite ;
+		animation: pmotion 8s linear infinite;
+	}
+	/*
+	** farji animations **
+	#firstpanel:hover,#secondpanel:hover,#thirdpanel:hover,#fourthpanel:hover,#fifthpanel:hover{
+		z-index: 6011;
+
+	}
+
+	#board1:hover #firstpanel{
+		z-index: 6011;
+	}
+	#board2:hover #secondpanel{
+		z-index: 6011;
+	}
+	*/
+
+}
+
+#eventlist{
+	position: relative;
+	display: inline-block;
+	right: -40%;
+	top: 2%;
+	width: 100%;
+	height: 100%;
+	z-index: 6002;
+	/*-webkit-animation: waiton 2s linear infinite ;
+	-moz-animation: waiton 2s linear infinite ;
+	-o-animation: waiton 2s linear infinite ;
+	animation: waiton 2s linear infinite;*/
+}
+
+.eventpanel {
+	position: absolute;
+	left: 0%;
+	top: -100%;
+	width: 100%;
+	height: 100%;
+	/*overflow-y: scroll;*/
+}
+
+#funevents {
+	position: absolute;
+	left: 0%;
+	top: -100%;
+	width: 100%;
+	height: 100%;
+	padding: 3%;
+	overflow-x: hidden;
+}
+
+@media screen and (min-width: 1400px) {
+	.event-description {
+		width: 100%;
+		height: 650px;
+		overflow-y: scroll;
+		font-family: segoeui, serif;
+		font-size: 17px;
+		line-height: 20px;
+	}
+}
+
+@media screen and (max-width: 1399px) {
+	.event-description {
+		width: 100%;
+		height: 370px;
+		overflow-y: scroll;
+		font-family: segoeui, serif;
+		font-size: 17px;
+		line-height: 20px;
+	}
+}
+
+strong {
+	font-family: typograph_pro_semibold, serif;
+	font-size: 18px;
+	display: block;
+}
+
+.event-description b {
+	font-weight: bold;
+	font-size: 17px;
+}
+
+
+
+
+
+@-webkit-keyframes pmotion {
+	from { -webkit-transform: rotate(0deg) translateX(3px) rotate(0deg); }
+	to   { -webkit-transform: rotate(360deg) translateX(3px) rotate(-360deg); }
+}
+@-moz-keyframes pmotion {
+	from { -moz-transform: rotate(0deg) translateX(3px) rotate(0deg); }
+	to   { -moz-transform: rotate(360deg) translateX(3px) rotate(-360deg); }
+}
+
+@-o-keyframes pmotion {
+	from { -o-transform: rotate(0deg) translateX(3px) rotate(0deg); }
+	to   { -o-transform: rotate(360deg) translateX(3px) rotate(-360deg); }
+}
+
+@keyframes pmotion {
+	from { transform: rotate(0deg) translateX(3px) rotate(0deg); }
+	to   { transform: rotate(360deg) translateX(3px) rotate(-360deg); }
+}
+
+@-webkit-keyframes waiton {
+	0%   {-webkit-transform: rotate(0deg) translateX(0px) rotate(0deg);}
+	5%   {-webkit-transform: rotate(0deg) translateX(10px) rotate(0deg);}
+    12%  {-webkit-transform: rotate(0deg) translateX(15px) rotate(0deg);}
+    25%  {-webkit-transform: rotate(0deg) translateX(10px) rotate(0deg);}
+    38%  {-webkit-transform: rotate(0deg) translateX(0px) rotate(0deg);}
+    50% {-webkit-transform: rotate(0deg) translateX(-10px) rotate(0deg);}
+    62% {-webkit-transform: rotate(0deg) translateX(-15px) rotate(0deg);}
+    75% {-webkit-transform: rotate(0deg) translateX(-10px) rotate(0deg);}
+    88% {-webkit-transform: rotate(0deg) translateX(-5px) rotate(0deg);}
+    100% {-webkit-transform: rotate(0deg) translateX(0px) rotate(0deg);}
+}
+@-moz-keyframes waiton {
+	0%   {-webkit-transform: rotate(0deg) translateX(10px) rotate(0deg);}
+    12%  {-webkit-transform: rotate(00deg) translateX(15px) rotate(0deg);}
+    25%  {-webkit-transform: rotate(00deg) translateX(-5px) rotate(0deg);}
+    38%  {-webkit-transform: rotate(0deg) translateX(-10px) rotate(0deg);}
+    50% {-webkit-transform: rotate(0deg) translateX(-10px) rotate(0deg);}
+    62% {-webkit-transform: rotate(0deg) translateX(-5px) rotate(0deg);}
+    75% {-webkit-transform: rotate(0deg) translateX(5px) rotate(0deg);}
+    88% {-webkit-transform: rotate(0deg) translateX(10px) rotate(0deg);}
+    100% {-webkit-transform: rotate(0deg) translateX(0px) rotate(0deg);}
+}
+
+@-o-keyframes waiton {
+	0%   {-webkit-transform: rotate(0deg) translateX(10px) rotate(0deg);}
+    12%  {-webkit-transform: rotate(00deg) translateX(15px) rotate(0deg);}
+    25%  {-webkit-transform: rotate(00deg) translateX(-5px) rotate(0deg);}
+    38%  {-webkit-transform: rotate(0deg) translateX(-10px) rotate(0deg);}
+    50% {-webkit-transform: rotate(0deg) translateX(-10px) rotate(0deg);}
+    62% {-webkit-transform: rotate(0deg) translateX(-5px) rotate(0deg);}
+    75% {-webkit-transform: rotate(0deg) translateX(5px) rotate(0deg);}
+    88% {-webkit-transform: rotate(0deg) translateX(10px) rotate(0deg);}
+    100% {-webkit-transform: rotate(0deg) translateX(0px) rotate(0deg);}
+}
+
+@keyframes waiton {
+	0%   {-webkit-transform: rotate(0deg) translateX(10px) rotate(0deg);}
+    12%  {-webkit-transform: rotate(00deg) translateX(15px) rotate(0deg);}
+    25%  {-webkit-transform: rotate(00deg) translateX(-5px) rotate(0deg);}
+    38%  {-webkit-transform: rotate(0deg) translateX(-10px) rotate(0deg);}
+    50% {-webkit-transform: rotate(0deg) translateX(-10px) rotate(0deg);}
+    62% {-webkit-transform: rotate(0deg) translateX(-5px) rotate(0deg);}
+    75% {-webkit-transform: rotate(0deg) translateX(5px) rotate(0deg);}
+    88% {-webkit-transform: rotate(0deg) translateX(10px) rotate(0deg);}
+    100% {-webkit-transform: rotate(0deg) translateX(0px) rotate(0deg);}
+}

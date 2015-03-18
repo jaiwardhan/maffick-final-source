@@ -1,0 +1,82 @@
+/*
+	z-index b.w. 8501-9000
+*/
+
+@media screen and (min-width: 1400px) {
+	#contactcontainer{
+	top:1%;
+	/*background-color: rgba(255,255,255,0.1);*/
+	width: 200%;
+	height: 95%;
+	margin-left: 2%;
+	overflow-y: scroll;
+	}
+}
+
+@media screen and (max-width: 1399px) {
+	#contactcontainer{
+	top:1%;
+	/*background-color: rgba(255,255,255,0.1);*/
+	width: 145%;
+	height: 95%;
+	margin-left: 2%;
+	overflow-y: scroll;
+	}
+}
+
+@media screen and (min-width: 1400px) {
+	#contact{
+		background-image: url(../img/contact/bg1.png);
+	}
+}
+
+@media screen and (max-width: 1399px) {
+	#contact{
+		background-image: url(../img/contact/bg2.png);
+	}
+}
+
+
+.cpanelrow{
+	background-color: rgba(255,255,255,0);
+	margin-top: 1%;
+	width: 100%;
+	display: inline-block;
+}
+.cpanelheader{
+	float: left;
+	width: auto;
+}
+
+.headbg{
+	background-color: rgba(0,187,255,0);
+	display: inline-block;
+	width:auto;
+	height: 100%;
+}
+
+#cpanelhwebteam{
+	float: left;
+	width: auto;
+
+}
+.people{
+	float: left;
+	width: auto;
+	background-color: rgba(0,187,255,0);
+	margin-left: 2%;
+	font-family: ubuntu;
+	color:#fff;
+}
+.photoid{
+	height: 70%;
+	padding-top: 2%;
+	width: auto;
+}
+.naampata{
+	background-color: rgba(255,255,255,0.1);
+	padding-top: 4%;
+	padding-bottom: 4%;
+	height: 25%;
+	font-size: 1em;
+}

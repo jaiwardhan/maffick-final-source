@@ -1,0 +1,20 @@
+@font-face{
+	font-family: segoeui;
+	src: url('../fonts/segoe_ui.ttf');
+}
+@font-face{
+	font-family: funsized;
+	src: url('../fonts/funsized.ttf');
+}
+@font-face {
+	font-family: walkway_bold;
+	src: url('../fonts/WalkwayUltraBold.ttf');
+}
+@font-face {
+	font-family: walkway;
+	src: url('../fonts/walkway_bold.ttf');
+}
+@font-face {
+	font-family: typograph_pro_semibold;
+	src: url('../fonts/typograph_pro_semibold.ttf');
+}

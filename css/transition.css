@@ -1,0 +1,43 @@
+
+@media screen and (min-width: 1400px) {
+	.panel {
+		width: 1307px;
+		height: 100%;
+		float: left;
+		padding-right: 1040px;
+		background-color:rgba(29,30,30,1);
+		z-index: 10000;
+	}
+}
+
+@media screen and (max-width: 1399px) {
+	.panel {
+		width: 930px;
+		height: 100%;
+		float: left;
+		padding-right: 1040px;
+		background-color:rgba(23,30,30,1);
+		z-index: 10000;
+	}
+}
+		
+#banner {
+	position: fixed;
+	z-index: 4000;
+}
+
+#banner ul {
+	line-height: 45px;
+	margin: 0 30px;
+	padding: 0;
+}
+
+#banner ul li {
+	display: inline;
+	margin-right: 30px;
+}
+
+#bottommenu{
+	position: fixed;
+	height: 50%;
+}
